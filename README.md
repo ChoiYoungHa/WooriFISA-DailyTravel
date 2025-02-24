@@ -94,14 +94,12 @@
 ![2024-09-21 11 34 16](https://github.com/user-attachments/assets/968a1e25-1c6b-433f-81b5-ae9238698d3f)
 - flyway 라이브러리를 통해 백엔드 서버가 올라갈 때 스키마 버전 업데이트
 
-## 🏓API 문서
-![2024-09-21 11 32 49](https://github.com/user-attachments/assets/91191b72-255d-4880-b3f0-ea5c983834f5)
-- **[📚Notion API문서](https://bittersweet-smoke-cb8.notion.site/API-e701b7aaaa2d4464bf00c0177df6490f?pvs=4)**
 ## 🎨모니터링 전략
 ![2024-09-21 11 37 41](https://github.com/user-attachments/assets/c7d19dfe-6b14-49dc-8292-837151900d52)
 - API별 요청횟수를 모니터링하여 자주 요청되는 API에 캐싱전략을 사용할 수 있다.
 - API별 응답속도를 모니터링하여 응답속도가 느린 API를 찾아 최적화를 고민해볼 수 있다. 
 ## 🥇이슈해결 및 성능최적화
+- 대용량 데이터 페이징 성능 개선 - [블로그 이동](https://weight-devlog.tistory.com/56)
 - 좋아요 버튼 동시성 이슈(Redis Distributed Lock) - [위키이동](https://github.com/WooriFisa3-TeamOrg/daily-travel/wiki/%EC%A2%8B%EC%95%84%EC%9A%94-%EB%B2%84%ED%8A%BC-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88(Redis-Distributed-Lock))
 - JPA Lazy 전략 성능이슈(Entity 그래프)
 - JWT 토큰인증 효율화
